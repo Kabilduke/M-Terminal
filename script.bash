@@ -19,7 +19,7 @@ center_print() {
 center_print " $power_source"
 
 if [ "$battery_percent" -lt 15 ]; then
-  center_print "⚠️ Warning: Low Battery ($battery_percent%"
+  center_print "⚠️ Warning: Low Battery $battery_percent%"
 else
   center_print "System ready to build — Battery at $battery_percent%"
 fi
